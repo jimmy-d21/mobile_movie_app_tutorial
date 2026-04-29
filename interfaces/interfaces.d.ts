@@ -1,3 +1,5 @@
+import { ImageSourcePropType } from "react-native";
+
 interface Movie {
   id: number;
   title: string;
@@ -74,4 +76,11 @@ interface MovieDetails {
 interface TrendingCardProps {
   movie: TrendingMovie;
   index: number;
+}
+
+interface TabIconProps {
+  bgImage: ImageSourcePropType;
+  icon: ImageSourcePropType;
+  title: string;
+  focused?: boolean;
 }
