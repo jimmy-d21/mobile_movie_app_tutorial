@@ -1,10 +1,10 @@
 import "@/global.css";
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Home() {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl font-bold text-light-300">
+      <Text className="text-xl font-bold text-light-200">
         Welcome to Nativewind!
       </Text>
     </View>
