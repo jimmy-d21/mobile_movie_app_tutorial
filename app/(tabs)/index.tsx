@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Trending Movies Horizontal Section */}
       {trendingMovies && trendingMovies.length > 0 && (
-        <View className="mt-8">
+        <View className="mt-8 flex-1">
           <Text className="text-lg text-white font-bold mb-4">
             Trending Movies
           </Text>
